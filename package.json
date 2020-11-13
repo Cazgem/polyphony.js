@@ -1,0 +1,44 @@
+{
+  "name": "polyphony.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "kill-port 3140 && node test/app.js",
+    "test": "nodemon test/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cazgem/polyphony.js.git"
+  },
+  "author": "Cazgem",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cazgem/polyphony.js/issues"
+  },
+  "homepage": "https://github.com/Cazgem/polyphony.js#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chalk": "^4.1.0",
+    "decibels": "^2.0.0",
+    "express": "^4.17.1",
+    "got": "^11.8.0",
+    "https": "^1.0.0",
+    "kill-port": "^1.6.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.4",
+    "obs-websocket-js": "^4.0.2",
+    "promise": "^8.1.0",
+    "request": "^2.88.2",
+    "tmi.js": "^1.5.0",
+    "twitch": "^4.2.2",
+    "twitch-auth": "^4.2.2",
+    "twitch-chat-client": "^4.2.2",
+    "twitch-js": "^2.0.0-beta.33",
+    "twitch-pubsub-client": "^4.2.2",
+    "twitch-webhooks": "^4.2.2",
+    "twitter": "^1.7.1",
+    "util": "^0.12.3"
+  }
+}
