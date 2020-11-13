@@ -1,6 +1,4 @@
 //polyphony.js
-const request = require(`request`);
-const mysql = require(`mysql`);
 const Twitch = require(`./lib/twitch`);
 const OBS = require(`./lib/obs`);
 const Twitter = require(`./lib/twitter`);
