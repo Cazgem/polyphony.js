@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "kill-port 3140 && node test/app.js",
-    "test": "nodemon test/app.js"
+    "test": "node test/app.js"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,7 @@
     "kill-port": "^1.6.1",
     "morgan": "^1.10.0",
     "mysql": "^2.18.1",
+    "ngrok": "^3.3.0",
     "nodemon": "^2.0.4",
     "obs-websocket-js": "^4.0.2",
     "promise": "^8.1.0",
