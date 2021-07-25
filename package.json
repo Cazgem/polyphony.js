@@ -1,6 +1,6 @@
 {
   "name": "polyphony.js",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -30,7 +30,6 @@
     "ms": "^2.1.2",
     "mysql": "^2.18.1",
     "nodemon": "^2.0.4",
-    "obs-websocket-js": "^4.0.2",
     "promise": "^8.1.0",
     "request": "^2.88.2",
     "tmi.js": "^1.5.0",
